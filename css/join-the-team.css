@@ -1,0 +1,319 @@
+/* screen - join-the-team */
+
+.join-the-team {
+  background-color: var(--black);
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.join-the-team .basic-indoor-sceene {
+  height: 1080px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1920px;
+}
+
+.join-the-team .basic-indoor-sceene video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.join-the-team .basic-indoor-sceene img {
+  object-fit: cover;
+}
+
+.join-the-team .overlap-group5 {
+  height: 757px;
+  left: 319px;
+  position: absolute;
+  top: 217px;
+  width: 1086px;
+}
+
+.join-the-team .overlap-group {
+  background-image: url(../img/form-blue-box@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 24px 105px 24px 105px;
+  height: 757px;
+  left: 211px;
+  position: absolute;
+  top: 0;
+  width: 875px;
+}
+
+.join-the-team .rectangle-10 {
+  border-radius: 24px 105px 24px 105px;
+  height: 757px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 875px;
+}
+
+.join-the-team .da-logo-transparent {
+  height: 595px;
+  left: 41px;
+  mix-blend-mode: overlay;
+  object-fit: cover;
+  position: absolute;
+  top: 81px;
+  width: 813px;
+}
+
+.join-the-team .join-the-delta-alpha-family {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 65px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 20px;
+  white-space: nowrap;
+}
+
+.join-the-team .make-art-make-music {
+  color: var(--supernova);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  left: 354px;
+  letter-spacing: 0;
+  line-height: 31px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 126px;
+  white-space: nowrap;
+}
+
+.join-the-team .form {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 375px;
+  min-height: 220px;
+  position: absolute;
+  top: 450px;
+  width: 579px;
+}
+
+.join-the-team .name-container {
+  height: 56px;
+  position: relative;
+  width: 581px;
+}
+
+.join-the-team .first-name-box {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 579px;
+}
+
+.join-the-team .name {
+  background-color: transparent;
+  border: 0;
+  color: var(--supernova);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 45px;
+  font-weight: 700;
+  height: 56px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 45px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 581px;
+}
+
+.join-the-team .name::placeholder {
+  color: #f9ce0799;
+}
+
+.join-the-team .overlap-group2 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  display: flex;
+  height: 57px;
+  margin-top: 10px;
+  min-width: 579px;
+}
+
+.join-the-team .email-address {
+  background-color: transparent;
+  border: 0;
+  height: 55px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: -1px;
+  padding: 0;
+  width: 577px;
+}
+
+.join-the-team .email-address::placeholder {
+  color: #f9ce0799;
+}
+
+.join-the-team .overlap-group3 {
+  height: 85px;
+  margin-top: 14px;
+  position: relative;
+  width: 581px;
+}
+
+.join-the-team .description-box {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 83px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 579px;
+}
+
+.join-the-team .how-would-you-like-to-help {
+  background-color: transparent;
+  border: 0;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 37px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 581px;
+}
+
+.join-the-team .how-would-you-like-to-help::placeholder {
+  color: #f9ce0799;
+}
+
+.join-the-team .submit-button {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 78px;
+  left: 533px;
+  min-width: 237px;
+  position: absolute;
+  top: 677px;
+  transition: all 0.5s ease-in-out;
+}
+
+.join-the-team .submit-button:hover {
+  transform: scale(1.1);
+}
+
+.join-the-team .submit-container {
+  height: 74px;
+  margin-bottom: -5px;
+  position: relative;
+  width: 237px;
+}
+
+.join-the-team .submit-blue-box {
+  border-radius: 24px 105px 24px 105px;
+  cursor: pointer;
+  height: 69px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  width: 237px;
+}
+
+.join-the-team .submit-blue-box:hover {
+  transform: scale(1.1);
+}
+
+.join-the-team .submit {
+  cursor: pointer;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 0;
+  white-space: nowrap;
+}
+
+.join-the-team .services {
+  background-image: url(../img/services-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 78px;
+  left: 37px;
+  position: absolute;
+  top: 987px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.join-the-team .services:hover {
+  transform: scale(1.1);
+}
+
+.join-the-team .home {
+  background-image: url(../img/home@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.join-the-team .home:hover {
+  transform: scale(1.1);
+}
+
+.join-the-team .m-about-us {
+  background-image: url(../img/m-about-us-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 1691px;
+  position: absolute;
+  top: 993px;
+  transition: all 0.5s ease-in-out;
+  width: 193px;
+}
+
+.join-the-team .m-about-us:hover {
+  transform: scale(1.1);
+}
+
+.join-the-team .gallery {
+  background-image: url(../img/gallery@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 134px;
+  left: 1698px;
+  position: absolute;
+  top: 12px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.join-the-team .gallery:hover {
+  transform: scale(1.1);
+}

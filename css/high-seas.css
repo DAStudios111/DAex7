@@ -1,0 +1,194 @@
+/* screen - high-seas */
+
+.high-seas {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  width: 1920px;
+}
+
+.high-seas .overlap-group2 {
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.high-seas .high-seas-gallery-vid {
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.high-seas .high-seas-gallery-vid video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.high-seas .high-seas-gallery-vid img {
+  object-fit: cover;
+}
+
+.high-seas .services {
+  background-image: url(../img/services-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 78px;
+  left: 30px;
+  position: absolute;
+  top: 956px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.high-seas .services:hover {
+  transform: scale(1.1);
+}
+
+.high-seas .home {
+  background-image: url(../img/home@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.high-seas .home:hover {
+  transform: scale(1.1);
+}
+
+.high-seas .m-about-us {
+  background-image: url(../img/m-about-us-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 1684px;
+  position: absolute;
+  top: 962px;
+  transition: all 0.5s ease-in-out;
+  width: 193px;
+}
+
+.high-seas .m-about-us:hover {
+  transform: scale(1.1);
+}
+
+.high-seas .s-contact-us {
+  background-image: url(../img/m-contact-us@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 872px;
+  position: absolute;
+  top: 962px;
+  transition: all 0.5s ease-in-out;
+  width: 177px;
+}
+
+.high-seas .s-contact-us:hover {
+  transform: scale(1.1);
+}
+
+.high-seas .gallery {
+  background-image: url(../img/gallery@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 134px;
+  left: 1698px;
+  position: absolute;
+  top: 12px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.high-seas .gallery:hover {
+  transform: scale(1.1);
+}
+
+.high-seas .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-12-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 24px 105px 24px 105px;
+  display: flex;
+  height: 570px;
+  justify-content: flex-end;
+  left: 30px;
+  min-width: 414px;
+  padding: 10.5px 5px;
+  position: absolute;
+  top: 270px;
+}
+
+.high-seas .from-sandy-shores-t {
+  letter-spacing: 0;
+  line-height: 55px;
+  min-height: 488px;
+  min-width: 398px;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.high-seas .span-1 {
+  text-decoration: underline;
+}
+
+.high-seas .span4 {
+  color: var(--marigold-yellow);
+  font-family: var(--font-family-segoeui-light);
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.high-seas .back-button {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 58px;
+  left: 168px;
+  min-width: 139px;
+  mix-blend-mode: luminosity;
+  opacity: 0.75;
+  position: absolute;
+  top: 782px;
+}
+
+.high-seas .overlap-group1 {
+  height: 67px;
+  margin-bottom: -9px;
+  position: relative;
+  width: 139px;
+}
+
+.high-seas .rectangle-1 {
+  border-radius: 24px 105px 24px 105px;
+  height: 58px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 139px;
+}
+
+.high-seas .place {
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 44px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 7px;
+  white-space: nowrap;
+}

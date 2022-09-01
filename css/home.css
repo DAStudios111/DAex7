@@ -1,0 +1,49 @@
+/* screen - home */
+
+.home {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  width: 1920px;
+}
+
+.home .overlap-group {
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.home .scene-da-outdoor-scenee_1_1 {
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.home .scene-da-outdoor-scenee_1_1 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.home .scene-da-outdoor-scenee_1_1 img {
+  object-fit: cover;
+}
+
+.home .enter-gif {
+  background-image: url(https://cdn.animaapp.com/projects/6293c5b71230b0804aeb9040/files/enter-gif.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 135px;
+  left: 743px;
+  position: absolute;
+  top: 842px;
+  transition: all 0.2s ease-in-out;
+  width: 435px;
+}
+
+.home .enter-gif:hover {
+  transform: scale(1.1);
+}

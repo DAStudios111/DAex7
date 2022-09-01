@@ -1,0 +1,257 @@
+/* screen - about-us */
+
+.about-us {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  width: 1920px;
+}
+
+.about-us .overlap-group1 {
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.about-us .about-us-scene {
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.about-us .about-us-scene video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-us .about-us-scene img {
+  object-fit: cover;
+}
+
+.about-us .s-video-editing {
+  background-image: url(../img/s-video-editing-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 56px;
+  left: 492px;
+  position: absolute;
+  top: 930px;
+  transition: all 0.5s ease-in-out;
+  width: 186px;
+}
+
+.about-us .s-video-editing:hover {
+  transform: scale(1.1);
+}
+
+.about-us .contact-us {
+  background-image: url(../img/contact-us-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 124px;
+  left: 756px;
+  position: absolute;
+  top: 756px;
+  transition: all 0.5s ease-in-out;
+  width: 408px;
+}
+
+.about-us .contact-us:hover {
+  transform: scale(1.1);
+}
+
+.about-us .s-2-d-anime {
+  background-image: url(../img/s-2d-anime-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 60px;
+  left: 864px;
+  position: absolute;
+  top: 928px;
+  transition: all 0.5s ease-in-out;
+  width: 193px;
+}
+
+.about-us .s-2-d-anime:hover {
+  transform: scale(1.1);
+}
+
+.about-us .s-promotions {
+  background-image: url(../img/s-promotions-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 57px;
+  left: 1243px;
+  position: absolute;
+  top: 929px;
+  transition: all 0.5s ease-in-out;
+  width: 186px;
+}
+
+.about-us .s-promotions:hover {
+  transform: scale(1.1);
+}
+
+.about-us .terms-conditions {
+  cursor: pointer;
+  left: 912px;
+  letter-spacing: 0;
+  line-height: 13px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 999px;
+  white-space: nowrap;
+}
+
+.about-us .refund-policy {
+  cursor: pointer;
+  left: 1284px;
+  letter-spacing: 0;
+  line-height: 13px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 1001px;
+  white-space: nowrap;
+}
+
+.about-us .privacy-policy {
+  cursor: pointer;
+  left: 537px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 1000px;
+  white-space: nowrap;
+}
+
+.about-us .icon-facebook {
+  cursor: pointer;
+  height: 60px;
+  left: 1838px;
+  object-fit: cover;
+  position: absolute;
+  top: 467px;
+  transition: all 0.5s ease-out;
+  width: 57px;
+}
+
+.about-us .icon-facebook:hover {
+  transform: scale(1.1);
+}
+
+.about-us .icon-metro-youtube {
+  cursor: pointer;
+  height: 58px;
+  left: 1842px;
+  object-fit: cover;
+  position: absolute;
+  top: 375px;
+  transition: all 0.5s ease-in-out;
+  width: 57px;
+}
+
+.about-us .icon-metro-youtube:hover {
+  transform: scale(1.1);
+}
+
+.about-us .pay-gif {
+  background-image: url(https://cdn.animaapp.com/projects/6293c5b71230b0804aeb9040/files/pay-gif.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 93px;
+  left: 1833px;
+  position: absolute;
+  top: 561px;
+  width: 68px;
+}
+
+.about-us .how-it-works {
+  cursor: pointer;
+  left: 1709px;
+  letter-spacing: 0;
+  line-height: 31px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 1019px;
+  white-space: nowrap;
+}
+
+.about-us .home {
+  background-image: url(../img/home@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.about-us .home:hover {
+  transform: scale(1.1);
+}
+
+.about-us .gallery {
+  background-image: url(../img/gallery@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 134px;
+  left: 1707px;
+  position: absolute;
+  top: 16px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.about-us .gallery:hover {
+  transform: scale(1.1);
+}
+
+.about-us .join-us {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 77px;
+  left: 864px;
+  min-width: 193px;
+  position: absolute;
+  top: 22px;
+}
+
+.about-us .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-34@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 24px 105px 24px 105px;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 193px;
+  padding: 2px 11px;
+}
+
+.about-us .join-us-1 {
+  letter-spacing: 0;
+  line-height: 49px;
+  min-height: 67px;
+  min-width: 168px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}

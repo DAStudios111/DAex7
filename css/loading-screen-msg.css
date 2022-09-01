@@ -1,0 +1,119 @@
+/* screen - loading-screen-msg */
+
+.loading-screen-msg {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 1080px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.loading-screen-msg .overlap-group2 {
+  height: 2223px;
+  position: relative;
+  width: 1920px;
+}
+
+.loading-screen-msg .loading-gif {
+  background-image: url(https://cdn.animaapp.com/projects/6293c5b71230b0804aeb9040/files/loading-gif.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1080px;
+  left: 0;
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 0;
+  width: 1917px;
+}
+
+.loading-screen-msg .loading-gif video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.loading-screen-msg .loading-gif img {
+  object-fit: cover;
+}
+
+.loading-screen-msg .repeat-grid-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 2223px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.loading-screen-msg .overlap-group {
+  height: 1097px;
+  position: relative;
+  width: 1920px;
+}
+
+.loading-screen-msg .rectangle {
+  border-radius: 24px 105px 24px 105px;
+  height: 1080px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.loading-screen-msg .icon-rotate-mobile {
+  height: 264px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 795px;
+  width: 451px;
+}
+
+.loading-screen-msg .da-logo-transparent {
+  height: 1075px;
+  left: 249px;
+  mix-blend-mode: overlay;
+  object-fit: cover;
+  position: absolute;
+  top: 22px;
+  width: 1468px;
+}
+
+.loading-screen-msg .title {
+  color: var(--supernova);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 107px;
+  font-weight: 700;
+  left: 311px;
+  letter-spacing: 0;
+  line-height: 107px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 457px;
+  white-space: nowrap;
+}
+
+.loading-screen-msg .overlap-group1 {
+  height: 1097px;
+  margin-top: 20px;
+  position: relative;
+  width: 1920px;
+}
+
+.loading-screen-msg .please-rotate-your-screen {
+  color: var(--supernova);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 107px;
+  font-weight: 700;
+  left: 311px;
+  letter-spacing: 0;
+  line-height: 107px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 457px;
+  white-space: nowrap;
+}

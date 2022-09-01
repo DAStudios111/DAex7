@@ -1,0 +1,24 @@
+/* screen - open-door-1 */
+
+.open-door-1 {
+  align-items: flex-start;
+  background-color: var(--black);
+  cursor: pointer;
+  display: flex;
+  width: 1920px;
+}
+
+.open-door-1 .scene-open-door {
+  height: 1080px;
+  width: 1920px;
+}
+
+.open-door-1 .scene-open-door video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.open-door-1 .scene-open-door img {
+  object-fit: cover;
+}

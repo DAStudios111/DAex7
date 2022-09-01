@@ -1,0 +1,279 @@
+/* screen - how-it-works */
+
+.how-it-works {
+  background-color: var(--black);
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.how-it-works .basic-indoor-sceene {
+  height: 1080px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1920px;
+}
+
+.how-it-works .basic-indoor-sceene video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.how-it-works .basic-indoor-sceene img {
+  object-fit: cover;
+}
+
+.how-it-works .overlap-group5 {
+  height: 750px;
+  left: 461px;
+  position: absolute;
+  top: 201px;
+  width: 999px;
+}
+
+.how-it-works .icon-awesome-arrows-alt-v {
+  height: 102px;
+  left: 910px;
+  object-fit: cover;
+  position: absolute;
+  top: 362px;
+  width: 23px;
+}
+
+.how-it-works .overlap-group3 {
+  height: 740px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 999px;
+}
+
+.how-it-works .form {
+  display: flex;
+  height: 740px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 999px;
+}
+
+.how-it-works .form-blue-box {
+  border-radius: 77px;
+  flex: 1;
+  object-fit: cover;
+  width: 999px;
+}
+
+.how-it-works .how-it-works-1 {
+  color: var(--supernova);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 90px;
+  font-weight: 700;
+  left: 114px;
+  letter-spacing: 0;
+  line-height: 90px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 5px;
+  white-space: nowrap;
+}
+
+.how-it-works .production-mode-container {
+  height: 140px;
+  left: 8px;
+  position: absolute;
+  top: 313px;
+  width: 990px;
+}
+
+.how-it-works .x2-production-mode {
+  color: var(--supernova);
+  font-family: var(--font-family-segoe_ui);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 31px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 0;
+  white-space: nowrap;
+}
+
+.how-it-works .span0 {
+  font-family: var(--font-family-segoeui-bold);
+}
+
+.how-it-works .contact-us-well-container {
+  height: 136px;
+  left: 6px;
+  position: absolute;
+  top: 123px;
+  width: 977px;
+}
+
+.how-it-works .x1-contact-us-well {
+  color: var(--supernova);
+  font-family: var(--font-family-segoe_ui);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 0;
+  white-space: nowrap;
+}
+
+.how-it-works .span1 {
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 34px;
+}
+
+.how-it-works .approval-support-container {
+  height: 175px;
+  left: 8px;
+  position: absolute;
+  top: 502px;
+  width: 976px;
+}
+
+.how-it-works .x3-approval-support {
+  color: var(--supernova);
+  font-family: var(--font-family-segoe_ui);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 0;
+  white-space: nowrap;
+}
+
+.how-it-works .span1-1 {
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-l);
+}
+
+.how-it-works .services {
+  background-image: url(../img/services-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 78px;
+  left: 30px;
+  position: absolute;
+  top: 956px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.how-it-works .services:hover {
+  transform: scale(1.1);
+}
+
+.how-it-works .home {
+  background-image: url(../img/home@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.how-it-works .home:hover {
+  transform: scale(1.1);
+}
+
+.how-it-works .m-about-us {
+  background-image: url(../img/m-about-us-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 1684px;
+  position: absolute;
+  top: 962px;
+  transition: all 0.5s ease-in-out;
+  width: 193px;
+}
+
+.how-it-works .m-about-us:hover {
+  transform: scale(1.1);
+}
+
+.how-it-works .s-contact-us {
+  background-image: url(../img/m-contact-us@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 872px;
+  position: absolute;
+  top: 981px;
+  transition: all 0.5s ease-in-out;
+  width: 177px;
+}
+
+.how-it-works .s-contact-us:hover {
+  transform: scale(1.1);
+}
+
+.how-it-works .gallery {
+  background-image: url(../img/gallery@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 134px;
+  left: 1698px;
+  position: absolute;
+  top: 12px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.how-it-works .gallery:hover {
+  transform: scale(1.1);
+}
+
+.how-it-works .join-us {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 77px;
+  left: 864px;
+  min-width: 193px;
+  position: absolute;
+  top: 22px;
+}
+
+.how-it-works .overlap-group4 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-34@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 24px 105px 24px 105px;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 193px;
+  padding: 2px 11px;
+}
+
+.how-it-works .join-us-1 {
+  letter-spacing: 0;
+  line-height: 49px;
+  min-height: 67px;
+  min-width: 168px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}

@@ -1,0 +1,202 @@
+/* screen - submit-team-thank-you */
+
+.submit-team-thank-you {
+  background-color: var(--black);
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.submit-team-thank-you .basic-indoor-sceene {
+  height: 1080px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1920px;
+}
+
+.submit-team-thank-you .basic-indoor-sceene video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.submit-team-thank-you .basic-indoor-sceene img {
+  object-fit: cover;
+}
+
+.submit-team-thank-you .overlap-group1 {
+  height: 757px;
+  left: 377px;
+  position: absolute;
+  top: 217px;
+  width: 1028px;
+}
+
+.submit-team-thank-you .overlap-group {
+  height: 757px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1028px;
+}
+
+.submit-team-thank-you .rectangle {
+  border-radius: 24px 105px 24px 105px;
+  height: 757px;
+  left: 153px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 875px;
+}
+
+.submit-team-thank-you .da-logo-transparent {
+  height: 595px;
+  left: 194px;
+  mix-blend-mode: overlay;
+  object-fit: cover;
+  position: absolute;
+  top: 81px;
+  width: 813px;
+}
+
+.submit-team-thank-you .thanks-for-contacting-us {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 65px;
+  position: absolute;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 274px;
+  white-space: nowrap;
+}
+
+.submit-team-thank-you .one-of-our-ambassado {
+  color: var(--supernova);
+  font-family: var(--font-family-segoeui-semibold);
+  font-size: 57px;
+  font-weight: 600;
+  left: 256px;
+  letter-spacing: 0;
+  line-height: 57px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 368px;
+  white-space: nowrap;
+}
+
+.submit-team-thank-you .icon-facebook {
+  cursor: pointer;
+  height: 60px;
+  left: 622px;
+  object-fit: cover;
+  position: absolute;
+  top: 524px;
+  transition: all 0.5s ease-in-out;
+  width: 57px;
+}
+
+.submit-team-thank-you .icon-facebook:hover {
+  transform: scale(1.1);
+}
+
+.submit-team-thank-you .icon-metro-youtube {
+  cursor: pointer;
+  height: 58px;
+  left: 502px;
+  object-fit: cover;
+  position: absolute;
+  top: 526px;
+  transition: all 0.5s ease-in-out;
+  width: 57px;
+}
+
+.submit-team-thank-you .icon-metro-youtube:hover {
+  transform: scale(1.1);
+}
+
+.submit-team-thank-you .services {
+  background-image: url(../img/services-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 78px;
+  left: 37px;
+  position: absolute;
+  top: 987px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.submit-team-thank-you .services:hover {
+  transform: scale(1.1);
+}
+
+.submit-team-thank-you .home {
+  background-image: url(../img/home@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.submit-team-thank-you .home:hover {
+  transform: scale(1.1);
+}
+
+.submit-team-thank-you .m-about-us {
+  background-image: url(../img/m-about-us-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 1691px;
+  position: absolute;
+  top: 993px;
+  transition: all 0.5s ease-in-out;
+  width: 193px;
+}
+
+.submit-team-thank-you .m-about-us:hover {
+  transform: scale(1.1);
+}
+
+.submit-team-thank-you .s-contact-us {
+  background-image: url(../img/m-contact-us@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 879px;
+  position: absolute;
+  top: 993px;
+  transition: all 0.5s ease-in-out;
+  width: 177px;
+}
+
+.submit-team-thank-you .s-contact-us:hover {
+  transform: scale(1.1);
+}
+
+.submit-team-thank-you .gallery {
+  background-image: url(../img/gallery@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 134px;
+  left: 1698px;
+  position: absolute;
+  top: 12px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.submit-team-thank-you .gallery:hover {
+  transform: scale(1.1);
+}

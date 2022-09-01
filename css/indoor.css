@@ -1,0 +1,286 @@
+/* screen - indoor */
+
+.indoor {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  width: 1920px;
+}
+
+.indoor .overlap-group1 {
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.indoor .scene-da-indoor-scene-2-ladder_1 {
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.indoor .scene-da-indoor-scene-2-ladder_1 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.indoor .scene-da-indoor-scene-2-ladder_1 img {
+  object-fit: cover;
+}
+
+.indoor .video-editing {
+  background-image: url(../img/video-editing@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 124px;
+  left: 756px;
+  position: absolute;
+  top: 690px;
+  transition: all 0.5s ease-in-out;
+  width: 408px;
+}
+
+.indoor .video-editing:hover {
+  transform: scale(1.1);
+}
+
+.indoor .x2-d-animation {
+  background-image: url(../img/2d-animation@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 124px;
+  left: 756px;
+  position: absolute;
+  top: 271px;
+  transition: all 0.5s ease-in-out;
+  width: 408px;
+}
+
+.indoor .x2-d-animation:hover {
+  transform: scale(1.1);
+}
+
+.indoor .about-us {
+  background-image: url(../img/about-us@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 60px;
+  left: 864px;
+  position: absolute;
+  top: 1002px;
+  transition: all 0.5s ease-in-out;
+  width: 193px;
+}
+
+.indoor .about-us:hover {
+  transform: scale(1.1);
+}
+
+.indoor .home {
+  background-image: url(../img/home@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.indoor .home:hover {
+  transform: scale(1.1);
+}
+
+.indoor .gallery {
+  background-image: url(../img/gallery@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 134px;
+  left: 1707px;
+  position: absolute;
+  top: 16px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.indoor .gallery:hover {
+  transform: scale(1.1);
+}
+
+.indoor .promotions {
+  background-image: url(../img/promotions@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 124px;
+  left: 756px;
+  position: absolute;
+  top: 481px;
+  transition: all 0.5s ease;
+  width: 408px;
+}
+
+.indoor .promotions:hover {
+  transform: scale(1.1);
+}
+
+.indoor .terms-conditions {
+  color: var(--supernova);
+  cursor: pointer;
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 23px;
+  font-weight: 700;
+  left: 1201px;
+  letter-spacing: 0;
+  line-height: 23px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 888px;
+  white-space: nowrap;
+}
+
+.indoor .refund-policy {
+  color: var(--supernova);
+  cursor: pointer;
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 24px;
+  font-weight: 700;
+  left: 565px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 887px;
+  white-space: nowrap;
+}
+
+.indoor .privacy-policy {
+  color: var(--supernova);
+  cursor: pointer;
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 25px;
+  font-weight: 700;
+  left: 880px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 888px;
+  white-space: nowrap;
+}
+
+.indoor .icon-facebook {
+  cursor: pointer;
+  height: 60px;
+  left: 1838px;
+  object-fit: cover;
+  position: absolute;
+  top: 467px;
+  transition: all 0.5s ease-in-out;
+  width: 57px;
+}
+
+.indoor .icon-facebook:hover {
+  transform: scale(1.1);
+}
+
+.indoor .icon-metro-youtube {
+  cursor: pointer;
+  height: 58px;
+  left: 1842px;
+  object-fit: cover;
+  position: absolute;
+  top: 375px;
+  transition: all 0.5s ease-out;
+  width: 57px;
+}
+
+.indoor .icon-metro-youtube:hover {
+  transform: scale(1.1);
+}
+
+.indoor .pay-gif {
+  background-image: url(https://cdn.animaapp.com/projects/6293c5b71230b0804aeb9040/files/pay-gif.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 93px;
+  left: 1833px;
+  position: absolute;
+  top: 561px;
+  width: 68px;
+}
+
+.indoor .how-it-works {
+  cursor: pointer;
+  left: 1709px;
+  letter-spacing: 0;
+  line-height: 31px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 1019px;
+  white-space: nowrap;
+}
+
+.indoor .join-us {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 77px;
+  left: 19px;
+  min-width: 193px;
+  position: absolute;
+  top: 985px;
+}
+
+.indoor .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-34@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 24px 105px 24px 105px;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 193px;
+  padding: 2px 11px;
+}
+
+.indoor .join-us-1 {
+  letter-spacing: 0;
+  line-height: 49px;
+  min-height: 67px;
+  min-width: 168px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.indoor .m-contact-us {
+  background-image: url(../img/m-contact-us@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 872px;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 177px;
+}
+
+.indoor .m-contact-us:hover {
+  transform: scale(1.1);
+}

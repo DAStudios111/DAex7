@@ -1,0 +1,280 @@
+/* screen - gallery */
+
+.gallery {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  width: 1920px;
+}
+
+.gallery .overlap-group1 {
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.gallery .basic-indoor-sceene_1 {
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.gallery .basic-indoor-sceene_1 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.gallery .basic-indoor-sceene_1 img {
+  object-fit: cover;
+}
+
+.gallery .services {
+  background-image: url(../img/services-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 78px;
+  left: 1704px;
+  position: absolute;
+  top: 14px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.gallery .services:hover {
+  transform: scale(1.1);
+}
+
+.gallery .home {
+  background-image: url(../img/home@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 179px;
+}
+
+.gallery .home:hover {
+  transform: scale(1.1);
+}
+
+.gallery .m-contact-us {
+  background-image: url(../img/m-contact-us@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 32px;
+  position: absolute;
+  top: 984px;
+  transition: all 0.5s ease-in-out;
+  width: 177px;
+}
+
+.gallery .m-contact-us:hover {
+  transform: scale(1.1);
+}
+
+.gallery .m-about-us {
+  background-image: url(../img/m-about-us-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 72px;
+  left: 1690px;
+  position: absolute;
+  top: 990px;
+  transition: all 0.5s ease-in-out;
+  width: 193px;
+}
+
+.gallery .m-about-us:hover {
+  transform: scale(1.1);
+}
+
+.gallery .what-is-a-2d-vid {
+  cursor: pointer;
+  height: 198px;
+  left: 854px;
+  object-fit: cover;
+  position: absolute;
+  top: 490px;
+  transition: all 0.5s ease-in-out;
+  width: 234px;
+}
+
+.gallery .what-is-a-2d-vid:hover {
+  transform: scale(1.1);
+}
+
+.gallery .natureal-landscaping {
+  background-image: url(../img/natureal-landscaping-1x-png-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 212px;
+  left: 1126px;
+  position: absolute;
+  top: 490px;
+  transition: all 0.5s ease-in-out;
+  width: 261px;
+}
+
+.gallery .natureal-landscaping:hover {
+  transform: scale(1.1);
+}
+
+.gallery .excite {
+  cursor: pointer;
+  height: 205px;
+  left: 850px;
+  object-fit: cover;
+  position: absolute;
+  top: 257px;
+  transition: all 0.5s ease-in-out;
+  width: 243px;
+}
+
+.gallery .excite:hover {
+  transform: scale(1.1);
+}
+
+.gallery .join-us {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 77px;
+  left: 864px;
+  min-width: 193px;
+  position: absolute;
+  top: 22px;
+}
+
+.gallery .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-34@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 24px 105px 24px 105px;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  min-width: 193px;
+  padding: 2px 11px;
+}
+
+.gallery .join-us-1 {
+  letter-spacing: 0;
+  line-height: 49px;
+  min-height: 67px;
+  min-width: 168px;
+  text-shadow: 0px 3px 6px #00000029;
+  white-space: nowrap;
+}
+
+.gallery .big-mamas {
+  background-image: url(../img/big-mamas-1x-png-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 204px;
+  left: 572px;
+  position: absolute;
+  top: 498px;
+  transition: all 0.5s ease-in-out;
+  width: 244px;
+}
+
+.gallery .big-mamas:hover {
+  transform: scale(1.1);
+}
+
+.gallery .x2-d-edu {
+  background-image: url(../img/2d-edu-1x-png-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 204px;
+  left: 839px;
+  position: absolute;
+  top: 716px;
+  transition: all 0.5s ease-in-out;
+  width: 243px;
+}
+
+.gallery .x2-d-edu:hover {
+  transform: scale(1.1);
+}
+
+.gallery .get-king {
+  background-image: url(../img/get-king-1x-png-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 204px;
+  left: 1126px;
+  position: absolute;
+  top: 716px;
+  transition: all 0.5s ease-in-out;
+  width: 251px;
+}
+
+.gallery .get-king:hover {
+  transform: scale(1.1);
+}
+
+.gallery .steps-to-success {
+  background-image: url(../img/steps-to-success-1x-png-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 243px;
+  left: 588px;
+  position: absolute;
+  top: 228px;
+  transition: all 0.5s ease-in-out;
+  width: 203px;
+}
+
+.gallery .steps-to-success:hover {
+  transform: scale(1.1);
+}
+
+.gallery .da-on-fire {
+  cursor: pointer;
+  height: 248px;
+  left: 1143px;
+  object-fit: cover;
+  position: absolute;
+  top: 228px;
+  transition: all 0.5s ease-in-out;
+  width: 218px;
+}
+
+.gallery .da-on-fire:hover {
+  transform: scale(1.1);
+}
+
+.gallery .sandy-shores {
+  background-image: url(../img/sandy-shores-1x-png-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 196px;
+  left: 572px;
+  position: absolute;
+  top: 729px;
+  transition: all 0.5s ease-in-out;
+  width: 235px;
+}
+
+.gallery .sandy-shores:hover {
+  transform: scale(1.1);
+}
